@@ -10,7 +10,7 @@ void setup()
   background(0);
   img = loadImage("starr.png");
   fill(230,0,0);
-  ellipse(200,380,200,60);
+  ellipse(200,380,300,90);
   fill(105,70,0);
   noStroke();
   quad(187,350,213,350,213,390,187,390);
