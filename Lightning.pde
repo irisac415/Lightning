@@ -9,8 +9,8 @@ void setup()
   size(400, 400);
   background(0);
   img = loadImage("starr.png");
-  fill(245,0,0);
-  ellipse(200,350,80,200);
+  fill(230,0,0);
+  ellipse(200,350,200,60);
   fill(105,70,0);
   noStroke();
   quad(187,350,213,350,213,390,187,390);
