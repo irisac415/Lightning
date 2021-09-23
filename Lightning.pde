@@ -10,7 +10,7 @@ void setup()
   background(0);
   img = loadImage("starr.png");
   fill(230,0,0);
-  ellipse(200,365,200,60);
+  ellipse(200,380,200,60);
   fill(105,70,0);
   noStroke();
   quad(187,350,213,350,213,390,187,390);
@@ -19,7 +19,7 @@ void setup()
 void draw()
 {
   stroke(130,220,140);
-  strokeWeight(0.5);
+  strokeWeight(0.6);
   while (startX<320 && startX>80 && startY<360) {
     endY = startY + ((int)(Math.random()*10));
     endX = (startX + ((int)(Math.random()*19)-9));
