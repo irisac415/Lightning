@@ -13,13 +13,13 @@ void setup()
   ellipse(200,380,300,90);
   fill(105,70,0);
   noStroke();
-  quad(187,350,213,350,213,390,187,390);
+  quad(187,65,213,65,213,390,187,390);
 }
 
 void draw()
 {
   stroke(130,220,140);
-  strokeWeight(0.6);
+  strokeWeight(1);
   while (startX<320 && startX>80 && startY<360) {
     endY = startY + ((int)(Math.random()*10));
     endX = (startX + ((int)(Math.random()*19)-9));
@@ -41,4 +41,3 @@ void keyPressed()
   img.resize(50,50);
   image(img,175,7);
 }
-
