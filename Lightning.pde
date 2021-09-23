@@ -39,6 +39,6 @@ void mousePressed()
 void keyPressed()
 {
   img.resize(50,50);
-  image(img,175,10);
+  image(img,175,7);
 }
 
