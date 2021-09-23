@@ -11,7 +11,7 @@ void setup()
   img = loadImage("starr.png");
   fill(105,70,0);
   noStroke();
-  quad(190,350,210,350,210,390,190,390);
+  quad(187,350,213,350,213,390,187,390);
 }
 
 void draw()
